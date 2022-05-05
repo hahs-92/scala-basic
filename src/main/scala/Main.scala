@@ -5,6 +5,8 @@ object Main {
     println("Hello " + name)
 }
 
+// sbt clean update compile  => solution for null folder
+
 /*
   // functions
   (x:Int, y: Int) => x + y // anonymous

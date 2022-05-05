@@ -1,0 +1,43 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hugo.hernandez\Documents\Projects\TrainingSura\Scala\scala-training\src\main\scala\Main.scala:9:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m(x:Int, y: Int) => x + y // anonymous[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hugo.hernandez\Documents\Projects\TrainingSura\Scala\scala-training\src\main\scala\Main.scala:11:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval add = (x: Int, y: Int) => x + y[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hugo.hernandez\Documents\Projects\TrainingSura\Scala\scala-training\src\main\scala\Main.scala:14:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef add2(x: Int, y: Int):Int = x + y[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hugo.hernandez\Documents\Projects\TrainingSura\Scala\scala-training\src\main\scala\Main.scala:16:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef addThenMultiply(x: Int, y: Int)(multiplier: Int): Int =[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hugo.hernandez\Documents\Projects\TrainingSura\Scala\scala-training\src\main\scala\Main.scala:19:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mprintln(addThenMultiply(1, 2)(3)) // 9[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hugo.hernandez\Documents\Projects\TrainingSura\Scala\scala-training\src\main\scala\Main.scala:26:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval greeter = new Greeter("Hello, ", "!")[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hugo.hernandez\Documents\Projects\TrainingSura\Scala\scala-training\src\main\scala\Main.scala:27:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mgreeter.greet("Scala developer") // hello, Scala developer![0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hugo.hernandez\Documents\Projects\TrainingSura\Scala\scala-training\src\main\scala\Main.scala:33:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval point = Point(1, 2)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hugo.hernandez\Documents\Projects\TrainingSura\Scala\scala-training\src\main\scala\Main.scala:34:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval point2 = Point(1, 2)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hugo.hernandez\Documents\Projects\TrainingSura\Scala\scala-training\src\main\scala\Main.scala:35:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval pointNotEqual = Point(2, 2)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hugo.hernandez\Documents\Projects\TrainingSura\Scala\scala-training\src\main\scala\Main.scala:46:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval newId: Int = IdFactory.create()[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hugo.hernandez\Documents\Projects\TrainingSura\Scala\scala-training\src\main\scala\Main.scala:47:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mprintln(newId) //1[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hugo.hernandez\Documents\Projects\TrainingSura\Scala\scala-training\src\main\scala\Main.scala:48:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval newerId: Int = IdFactory.create()[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\hugo.hernandez\Documents\Projects\TrainingSura\Scala\scala-training\src\main\scala\Main.scala:49:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mprintln(newerId) // 2[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m14 errors found[0m

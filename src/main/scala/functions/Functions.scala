@@ -15,4 +15,21 @@ object Functions {
 
   def addOne(a: Int): Int = a + 1
 
+  def isPair(list:List[Int]) : List[Int] = list.filter(_ % 2 == 0)
+
+  def currying1(a: Int) = (b: Int) => a + b
+
+  def currying2(a: Int): (Int)=> Int = {
+    (b: Int) => a + b
+  }
+
+  def createFunc(): () => Unit = {
+    var name = "Alex"
+    () => println(name)
+  }
+
+  def adder(x: Int): (Int) => Int = {
+    (y: Int) => x + y
+  }
+
 }

@@ -7,5 +7,6 @@ object Classes {
 
     point.move(10,10)
     println(point)
+
   }
 }
